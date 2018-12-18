@@ -50,6 +50,7 @@
     <string name="take_photo">Take photo</string>
     <string name="choose_photo">Choose photo</string>
     <string name="remove_photo">Remove photo</string>
+    <string name="export_photo">Export photo</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Start name with surname</string>

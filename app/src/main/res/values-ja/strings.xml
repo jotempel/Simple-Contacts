@@ -50,6 +50,7 @@
     <string name="take_photo">写真を撮影</string>
     <string name="choose_photo">写真を選択</string>
     <string name="remove_photo">写真を削除</string>
+    <string name="export_photo">写真 Export</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">姓を先に表示</string>

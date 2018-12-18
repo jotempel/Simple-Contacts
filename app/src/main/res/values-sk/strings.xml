@@ -50,6 +50,7 @@
     <string name="take_photo">Vytvoriť foto</string>
     <string name="choose_photo">Zvoliť foto</string>
     <string name="remove_photo">Odstrániť foto</string>
+    <string name="export_photo">Export foto</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Začať meno priezviskom</string>

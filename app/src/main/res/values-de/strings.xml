@@ -50,6 +50,7 @@
     <string name="take_photo">Foto aufnehmen</string>
     <string name="choose_photo">Foto auswählen</string>
     <string name="remove_photo">Foto entfernen</string>
+    <string name="export_photo">Foto exportieren</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Namen mit Nachnamen beginnen</string>

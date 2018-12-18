@@ -50,6 +50,7 @@
     <string name="take_photo">Tirar foto</string>
     <string name="choose_photo">Escolher foto</string>
     <string name="remove_photo">Remover foto</string>
+    <string name="export_photo">Export foto</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Ordenar por apelido</string>

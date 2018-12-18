@@ -50,6 +50,7 @@
     <string name="take_photo">Λήψη φωτογραφίας</string>
     <string name="choose_photo">Επιλογή φωτογραφίας</string>
     <string name="remove_photo">Αφαίρεση φωτογραφίας</string>
+    <string name="export_photo">Export φωτογραφίας</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Εμφάνιση πρώτα το επώνυμο</string>

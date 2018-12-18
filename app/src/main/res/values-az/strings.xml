@@ -50,6 +50,7 @@
     <string name="take_photo">Şəkil çək</string>
     <string name="choose_photo">Şəkil seç</string>
     <string name="remove_photo">Şəkli sil</string>
+    <string name="export_photo">Şəkli export</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Ada soyaddan başla</string>

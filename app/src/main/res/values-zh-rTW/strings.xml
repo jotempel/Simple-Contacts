@@ -50,6 +50,7 @@
     <string name="take_photo">拍照</string>
     <string name="choose_photo">選擇相片</string>
     <string name="remove_photo">移除相片</string>
+    <string name="export_photo">Export photo</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">姓氏在前</string>

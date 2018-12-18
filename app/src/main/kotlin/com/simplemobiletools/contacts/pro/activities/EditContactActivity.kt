@@ -48,6 +48,7 @@ class EditContactActivity : ContactActivity() {
     private val TAKE_PHOTO = 1
     private val CHOOSE_PHOTO = 2
     private val REMOVE_PHOTO = 3
+    private val EXPORT_PHOTO = 4
 
     private var wasActivityInitialized = false
     private var lastPhotoIntentUri: Uri? = null
@@ -1092,12 +1093,14 @@ class EditContactActivity : ContactActivity() {
 
         if (currentContactPhotoPath.isNotEmpty() || contact!!.photo != null) {
             items.add(RadioItem(REMOVE_PHOTO, getString(R.string.remove_photo)))
+            items.add(RadioItem(EXPORT_PHOTO, getString(R.string.export_photo)))
         }
 
         RadioGroupDialog(this, items) {
             when (it as Int) {
                 TAKE_PHOTO -> startTakePhotoIntent()
                 CHOOSE_PHOTO -> startChoosePhotoIntent()
+                EXPORT_PHOTO -> startExportPhotoIntent()
                 else -> showPhotoPlaceholder(contact_photo)
             }
         }
@@ -1181,6 +1184,17 @@ class EditContactActivity : ContactActivity() {
                 toast(R.string.no_app_found)
             }
         }
+    }
+
+    private fun startExportPhotoIntent() {
+        val uri = Uri.parse(contact!!.photoUri)
+        lastPhotoIntentUri = uri
+        val shareIntent: Intent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_STREAM, uri)
+            type = "image/*"
+        }
+        startActivity(Intent.createChooser(shareIntent, resources.getText(R.string.send_email_to_contacts)))
     }
 
     private fun getPhoneNumberTypeId(value: String) = when (value) {

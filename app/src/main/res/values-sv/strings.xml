@@ -50,6 +50,7 @@
     <string name="take_photo">Ta foto</string>
     <string name="choose_photo">Välj foto</string>
     <string name="remove_photo">Ta bort foto</string>
+    <string name="export_photo">Export foto</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Visa efternamn först</string>

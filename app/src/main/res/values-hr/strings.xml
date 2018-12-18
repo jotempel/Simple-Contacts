@@ -50,6 +50,7 @@
     <string name="take_photo">Uslikaj</string>
     <string name="choose_photo">Odaberi fotografiju</string>
     <string name="remove_photo">Ukloni fotografiju</string>
+    <string name="export_photo">Export fotografiju</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Započnite imena s prezimenima</string>

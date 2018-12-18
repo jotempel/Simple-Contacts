@@ -50,6 +50,7 @@
     <string name="take_photo">Nufotografuoti</string>
     <string name="choose_photo">Pasirinkti nuotrauką</string>
     <string name="remove_photo">Pašalinti nuotrauką</string>
+    <string name="export_photo">Export photo</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Pavardė rodoma pirma</string>

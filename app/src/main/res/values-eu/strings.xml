@@ -50,6 +50,7 @@
     <string name="take_photo">Atera argazkia</string>
     <string name="choose_photo">Hautatu argazkia</string>
     <string name="remove_photo">Kendu argazkia</string>
+    <string name="export_photo">Export argazkia</string>
 
     <!-- Settings -->
     <string name="start_name_with_surname">Abizenaren arabera sailkatu</string>
